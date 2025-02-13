@@ -24,7 +24,7 @@ const techStack = [
   {
     name: "Python",
     icon: <ServerIcon className="w-6 h-6 text-green-500" />,
-    category: "Backend",
+    category: "Backend & websocket",
   },
   {
     name: "yfinance",
