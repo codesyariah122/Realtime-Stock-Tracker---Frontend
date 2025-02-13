@@ -13,7 +13,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <body>
           {children}
 
-          <footer className="w-full bg-gray-900 text-white text-center py-4 mt-10">
+          <footer className="w-full bg-gray-900 text-white text-center">
             <p>
               &copy; {new Date().getFullYear()}{" "}
               <a href="https://codesyariah-webdev.vercel.app">
