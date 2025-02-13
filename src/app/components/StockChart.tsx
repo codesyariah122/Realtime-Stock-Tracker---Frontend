@@ -132,7 +132,7 @@ export default function StockChart({ symbol }: { symbol: string }) {
               {/* Area Chart */}
               <Area
                 type="monotone"
-                dataKey="price_idr"
+                dataKey="price_usd"
                 stroke="#ED2D56"
                 fill="url(#colorPrice)"
                 strokeWidth={2}
@@ -143,7 +143,7 @@ export default function StockChart({ symbol }: { symbol: string }) {
               {/* Line Chart */}
               <Line
                 type="monotone"
-                dataKey="price_idr"
+                dataKey="price_usd"
                 stroke="#007bff"
                 strokeWidth={2}
                 dot={{ r: 4, strokeWidth: 2, fill: "#007bff" }}
@@ -153,7 +153,7 @@ export default function StockChart({ symbol }: { symbol: string }) {
               <Bar dataKey="volume" fill="#82ca9d" barSize={30} />
 
               {/* Scatter Plot */}
-              <Scatter dataKey="price_idr" fill="gold" />
+              <Scatter dataKey="price_usd" fill="gold" />
             </ComposedChart>
           </ResponsiveContainer>
         </div>
